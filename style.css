@@ -225,4 +225,43 @@ span{
     left: 8px;
     bottom: -10px;
 }
-hr
+
+
+@media (max-width: 900px) {
+ html{
+    height: 1000px;
+    width: 1280px;
+ }
+ .container,
+ .containerthree{
+     height: 1000px;
+     width: 1280px;
+ 
+ }
+
+.containersec,
+.textsec,.imglogo img{
+    height: 110vh;
+
+}
+
+#newh1{
+    font-size: 3rem;
+}
+
+.services img{
+    height: 700px;
+    width: 900px;
+    margin: 70px 170px;
+}
+.icons ul {
+    font-size: 40px;
+  position: relative;
+  right: -290px;
+  bottom: 5px;
+
+}
+.icons{
+    height: 110px;
+}
+}
