@@ -227,7 +227,8 @@ span{
 }
 
 
-@media (max-width: 900px) {
+@media  only screen and 
+ } (max-width: 900px) {
  html{
     height: 1000px;
     width: 1280px;
