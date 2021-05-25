@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    background: url("undraw_yoga_248n.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #6159e5;
+    background-size: 700px;
+    height: 100vh;
+    width: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 15px 0 0 65px;
+    position: relative;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: snow;
+    font-size: 35px;
+
+}
+
+ul li a:active {
+    color: black;
+}
+
+ul li::after {
+    content: "";
+    background: snow;
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: .4s ease;
+
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+}
+
+h1 {
+    font-size: 5rem;
+    color: snow;
+}
+
+p {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 25px;
+    line-height: 2;
+}
+
+
+
+button {
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid snow;
+    background: transparent;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+    margin-top: 30px;
+    font-size: 35px;
+    display: block;
+
+}
+
+.btn::after {
+    content: "";
+    background: snow;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.btn:hover::after {
+    width: 100%;
+
+}
+
+.btn:hover {
+    color: #6159e5;
+    border: hidden;
+}
+
+.containersec {
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.imglogo img {
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-color: #6159e5;
+
+}
+
+.textsec {
+    background-color: rgba(97, 89, 229);
+    width: 60%;
+    height: 100vh;
+    float: right;
+
+}
+
+.services {
+    display: inline-block;
+    background-color: #6159e5;
+
+}
+
+.services img {
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin: 20px 25px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px #585858;
+    background-color: snow;
+
+}
+
+.newbutton {
+    margin: 50px 200px;
+
+}
+
+#newh1 {
+    margin: 50px 220px;
+    position: relative;
+}
+
+.icons ul li {
+    position: relative;
+    color: snow;
+
+
+}
+
+.icons {
+    background-color: #6159e5;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+.icons ul {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    padding-top: 15px;
+}
+
+span {
+    font-size: 30px;
+    color: snow;
+    display: inline-block;
+    PADDING: 30px 20px;
+
+}
+
+#heading {
+    position: relative;
+    margin-left: 50px;
+    margin: 40px;
+}
+
+#heading::after {
+    content: "";
+    background-color: snow;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 3px;
+    bottom: -15px;
+}
+
+
+#newh1::after {
+
+    content: "";
+    background-color: snow;
+    width: 130px;
+    height: 4px;
+    position: absolute;
+    left: 8px;
+    bottom: -10px;
+}
+
+@media only screen and (max-width: 900px) {
+ html{
+    height: 1000px;
+    width: 1280px;
+ }
+ .container,
+ .containerthree{
+     height: 1000px;
+     width: 1280px;
+ 
+ }
+
+.containersec,
+.textsec,.imglogo img{
+    height: 110vh;
+
+}
+
+#newh1{
+    font-size: 3rem;
+}
+
+.services img{
+    height: 700px;
+    width: 900px;
+    margin: 70px 170px;
+}
+.icons ul {
+    font-size: 40px;
+  position: relative;
+  right: -290px;
+  bottom: 5px;
+
+}
+.icons{
+    height: 110px;
+}
+}
